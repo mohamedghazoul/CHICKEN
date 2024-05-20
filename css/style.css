@@ -13,7 +13,7 @@ body {
     position: fixed !important;
     top: 0 !important;
     width: 100% !important;
-    z-index: 9 !important;
+    z-index: 900000000 !important;
     transition: .3s !important;
 }
 .container-fluid {
@@ -302,6 +302,7 @@ footer a , li a {
     .container-1 {
         /* background-color: red; */
         width: 100%;
+        background-color: #fff;
         /* margin: auto; */
         margin-top: 90px;
         height: 80vh;
@@ -340,7 +341,6 @@ footer a , li a {
         display: flex;
         transition: 1.5s;
         left: -100%;
-        background-color: rgba(240, 237, 237,0.9) !important;
     }
     .chicken button {
         width: 70%;
@@ -375,6 +375,9 @@ footer a , li a {
         display: none;
     }
     .opasitiy {
-        background-color: rgba(240, 237, 237,0.3);
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 128, .5);
+        z-index: 55;
     }
   }
