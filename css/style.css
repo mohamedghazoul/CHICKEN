@@ -61,7 +61,7 @@ body {
         /* border-radius: 50%; */
     }
     p {
-        font-size: 17px;
+        font-size: 20px;
     }
 }
 .chicken {
@@ -187,6 +187,7 @@ footer a , li a {
     justify-content: space-around;
 }
   @media only screen and (max-width: 900px) {
+
     .container-2 .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -207,15 +208,19 @@ footer a , li a {
         /* background-color: rgb(240, 237, 237); */
         /* box-shadow : rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
         img {
-            display: none;
+            /* display: none; */
             width: 350px;
             height: 350px;
             position: absolute;
             top: 50%;
             right: -60%;
+
             transition: 3s;
-            transform: translateY(-50%);
+            /* transform: translateY(-50%); */
             /* border-radius: 50%; */
+        } p {
+            font-size: 20px;
+            color: #fff;
         }
     }
     .chicken .h1 {
@@ -266,10 +271,17 @@ footer a , li a {
         width: 50%;
         justify-content: space-around;
     }
+    .opasitiy {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(128, 128, 98, 0.5);
+        z-index: 55;
+    }
   }
 
 
   @media only screen and (max-width: 760px) {
+   
     body {
         width: 100%;
     }
@@ -300,6 +312,7 @@ footer a , li a {
         align-items: center;
     }
     .container-1 {
+        
         /* background-color: red; */
         width: 100%;
         background-color: #fff;
@@ -314,7 +327,7 @@ footer a , li a {
         /* background-color: rgb(240, 237, 237); */
         /* box-shadow : rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
         img {
-            display: none;
+            /* display: none; */
             width: 350px;
             height: 350px;
             position: absolute;
@@ -323,6 +336,9 @@ footer a , li a {
             transition: 3s;
             transform: translateY(-50%);
             /* border-radius: 50%; */
+        } p {
+            font-size: 20px;
+            color: #fff;
         }
     }
     .chicken .h1 {
@@ -375,9 +391,9 @@ footer a , li a {
         display: none;
     }
     .opasitiy {
-        width: 150%;
-        height: 150%;
-        background-color: rgba(255, 255, 128, .5);
+        width: 100%;
+        height: 100%;
+        background-color: rgba(128, 128, 98, 0.5);
         z-index: 55;
     }
   }
