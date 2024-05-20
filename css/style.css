@@ -373,4 +373,7 @@ footer a , li a {
     .right {
         display: none;
     }
+      p {
+          color:white;
+      }
   }
