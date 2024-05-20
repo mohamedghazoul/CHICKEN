@@ -11,6 +11,8 @@ let container2 = document.querySelector(".container-2")
 window.onload = function(){
     if (window.innerWidth<=900){
         h1.style.left = "0"
+        img.style.right = "25%"
+        img.style.transform = "translate(0%,-50%)"
         // console.log(window.innerWidth)
         setTimeout(() => {
             // container.style.boxShadow = "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px"
