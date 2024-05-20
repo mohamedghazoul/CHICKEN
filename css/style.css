@@ -340,6 +340,7 @@ footer a , li a {
         display: flex;
         transition: 1.5s;
         left: -100%;
+        background-color: rgba(240, 237, 237,0.9) !important;
     }
     .chicken button {
         width: 70%;
@@ -373,7 +374,7 @@ footer a , li a {
     .right {
         display: none;
     }
-      p {
-          color:white;
-      }
+    .opasitiy {
+        background-color: rgba(240, 237, 237,0.3);
+    }
   }
